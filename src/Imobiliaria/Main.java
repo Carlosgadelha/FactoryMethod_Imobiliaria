@@ -10,6 +10,7 @@ public class Main {
 		
 		for(int i=0; i<5; i++) {
 			imoveis[i] = f.criarImovel("casa", 01, 1000).faturamento ;
+			imoveis[i] = f.criarImovel("lote", 01, 20000).faturamento ;
 			System.out.println(imoveis[i]);
 		}
 		
